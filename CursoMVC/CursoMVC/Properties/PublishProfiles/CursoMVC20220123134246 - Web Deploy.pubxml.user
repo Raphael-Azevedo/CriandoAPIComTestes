@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAR0vRDL2q6kWLwVcDUILyRgAAAAACAAAAAAAQZgAAAAEAACAAAABg1aqN8rEol3i9pRmlZ6PX/6UpkXTso7QOUZAvvRV0dQAAAAAOgAAAAAIAACAAAADGOprlAnd/aRjlQZ4UXZGDXeSllQwsAiezOjL9hMA6GoAAAAD5UVmaY3PElF3P+LtAqAG6wbXXyTxSuqe4xgIjmccGj80xOUAGIACOzitbN2dqIJ1ieFJ+QmirLQZJy/THbf5WhOuz/1TxuLd6HGYkMgpzejUlBN7aGL9cKOBELi/6NyKRfAce7bYGlM6VWW7+n76GLSVDYab8GzAg5DeJLCnuI0AAAAD+uHtKozZ8IhSkWHa+neUs8qi+KQF3UFKazSvW3p8aP3xcL2grdacOL3dE4ECi/3kC1WpD7D7RA1muKg2RiufV</EncryptedPassword>
+    <History>True|2022-01-24T12:05:31.6711678Z;True|2022-01-24T09:03:03.7583338-03:00;True|2022-01-24T08:44:51.6052763-03:00;True|2022-01-24T08:27:52.1593854-03:00;True|2022-01-24T08:23:44.8192496-03:00;True|2022-01-23T14:17:37.7584838-03:00;True|2022-01-23T14:15:23.3803098-03:00;True|2022-01-23T14:13:56.6645115-03:00;True|2022-01-23T14:10:18.9960736-03:00;True|2022-01-23T14:07:26.4269502-03:00;True|2022-01-23T13:50:17.7843295-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:cursomvcdbserver.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=brnevesra%40cursomvcdbserver%3bPassword=33325238Rf</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:cursomvcdbserver.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=brnevesra%40cursomvcdbserver%3bPassword=33325238Rf</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CursoMVC.Models.Context">
+      <Value>Data Source=tcp:cursomvcdbserver.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=brnevesra%40cursomvcdbserver%3bPassword=33325238Rf</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

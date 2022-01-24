@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-01-23T15:37:28.4225532Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-01-24T11:16:18.7733413Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "a0dba130-acd0-4ad5-aab4-f1ab62f8198c"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CursoMVC"
+    }
+  }
+}
